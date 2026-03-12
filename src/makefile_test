@@ -1,0 +1,64 @@
+FC      = ifx
+LD      = ifx
+
+# Build mode: DEBUG=1 make
+DEBUG ?= 1
+
+ifeq ($(DEBUG),1)
+  FCOPTS = -g -O0 -traceback -check all
+else
+  FCOPTS = -O3 -qopenmp
+endif
+
+# WIGX include path (modules)
+WIGXINC = -I/storage/knapp/wigxjpf/mod
+
+# Libraries
+LDOPTS  = -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core -liomp5 -lpthread -L/storage/knapp/wigxjpf/lib -lwigxjpf
+
+EXENAME = ../run/HF_BCS
+RUNDIR  := $(dir $(EXENAME))
+
+OBJS = HF_BCS.o type_defs.o declarations.o read_input.o basis.o HFBCS_solver.o v2b_bin.o hamiltonian.o Tcm_2b.o coupling_coefficients.o
+
+.PHONY: clean
+
+$(RUNDIR):
+    mkdir -p $(RUNDIR)
+
+$(EXENAME): | $(RUNDIR)
+$(EXENAME): $(OBJS)
+    $(LD) -o $(EXENAME) $(OBJS) $(LDOPTS)
+
+HF_BCS.o: declarations.o read_input.o basis.o HFBCS_solver.o hamiltonian.o Tcm_2b.o coupling_coefficients.o HF_BCS.f90
+    $(FC) $(FCOPTS) $(WIGXINC) -c HF_BCS.f90
+
+type_defs.o: type_defs.f90
+    $(FC) $(FCOPTS) -c type_defs.f90
+
+declarations.o: type_defs.o declarations.f90
+    $(FC) $(FCOPTS) -c declarations.f90
+
+read_input.o: declarations.o read_input.f90
+    $(FC) $(FCOPTS) -c read_input.f90
+
+basis.o: declarations.o basis.f90
+    $(FC) $(FCOPTS) -c basis.f90
+
+HFBCS_solver.o: declarations.o basis.o HFBCS_solver.f90
+    $(FC) $(FCOPTS) -c HFBCS_solver.f90
+
+hamiltonian.o: declarations.o v2b_bin.o Tcm_2b.o coupling_coefficients.o hamiltonian.f90
+    $(FC) $(FCOPTS) $(WIGXINC) -c hamiltonian.f90
+
+v2b_bin.o: v2b_bin.f90
+    $(FC) $(FCOPTS) -c v2b_bin.f90
+
+Tcm_2b.o: declarations.o coupling_coefficients.o Tcm_2b.f90
+    $(FC) $(FCOPTS) $(WIGXINC) -c Tcm_2b.f90
+
+coupling_coefficients.o: coupling_coefficients.f90
+    $(FC) $(FCOPTS) $(WIGXINC) -c coupling_coefficients.f90
+
+clean:
+    rm -f *.o *.mod $(EXENAME)

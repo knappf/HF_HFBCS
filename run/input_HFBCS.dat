@@ -1,0 +1,7 @@
+18,8         # mass and proton number of the core calculated by HF
+3,6          # Nmax1_2N, Nmax12_2N  : model space of the 2N interaction file 
+3,6,9        # Nmax1_3N, Nmax12_3N, Nmax123_3N  : model space of the 3N interaction file
+3,6,9        # Nmax1, Nmax12, Nmax12 :3  model space for  HF(BCS) calculation
+16.0         # hbar*omega [MeV]
+1.d-7        # precision parameter 
+

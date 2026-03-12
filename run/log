@@ -1,0 +1,169 @@
+ Reading input parameters...
+ Input parameters read:
+ Mass number (A):           18
+ Proton number (Z):            8
+ Model space 2N_file:            3           6
+ Model space 3N_file:            3           6           9
+ Model space used in calculation:            3           6           9
+ Harmonic oscillator frequency (hbar_omega):    16.0000000000000     
+ Convergence threshold (epsilon):   1.000000000000000E-007
+ Calculated number of 2b MEs:                   5696
+ Loaded number of 2b MEs:                   5696
+ Calculation of 2-body part of CM Hamiltonian
+ Compression of V2B
+ from                 80000                 80000                 80000
+ to                  7342                  7342                  8356
+ Calculated number of 3b No2b MEs:                 126960
+ Loading 3B m.e.
+ V3B array size (GB)  4.729628562927246E-004
+ Compressed 3b No2b MEs:                 85785
+ Compressed V3B array size (GB)  3.195703029632568E-004
+ BCS for neutrons is ON 
+ Iteration #            1      E_HF(BCS)  =   -66.9332148062380      MeV
+ Iteration #            2      E_HF(BCS)  =   -69.1689946642531      MeV
+ Iteration #            3      E_HF(BCS)  =   -69.4683661044653      MeV
+ Iteration #            4      E_HF(BCS)  =   -69.5110868235907      MeV
+ Iteration #            5      E_HF(BCS)  =   -69.5185203571904      MeV
+ Iteration #            6      E_HF(BCS)  =   -69.5261542073697      MeV
+ Iteration #            7      E_HF(BCS)  =   -69.5352589805983      MeV
+ Iteration #            8      E_HF(BCS)  =   -69.5453452760876      MeV
+ Iteration #            9      E_HF(BCS)  =   -69.5560330421158      MeV
+ Iteration #           10      E_HF(BCS)  =   -69.5670290993497      MeV
+ Iteration #           11      E_HF(BCS)  =   -69.5781091775978      MeV
+ Iteration #           12      E_HF(BCS)  =   -69.5891035714843      MeV
+ Iteration #           13      E_HF(BCS)  =   -69.5998856937438      MeV
+ Iteration #           14      E_HF(BCS)  =   -69.6103629493082      MeV
+ Iteration #           15      E_HF(BCS)  =   -69.6204694638247      MeV
+ Iteration #           16      E_HF(BCS)  =   -69.6301602941443      MeV
+ Iteration #           17      E_HF(BCS)  =   -69.6394068236150      MeV
+ Iteration #           18      E_HF(BCS)  =   -69.6481931010786      MeV
+ Iteration #           19      E_HF(BCS)  =   -69.6565178489153      MeV
+ Iteration #           20      E_HF(BCS)  =   -69.6643918935984      MeV
+ Iteration #           21      E_HF(BCS)  =   -69.6718194707269      MeV
+ Iteration #           22      E_HF(BCS)  =   -69.6788090330015      MeV
+ Iteration #           23      E_HF(BCS)  =   -69.6853722423328      MeV
+ Iteration #           24      E_HF(BCS)  =   -69.6915231480269      MeV
+ Iteration #           25      E_HF(BCS)  =   -69.6972775185125      MeV
+ Iteration #           26      E_HF(BCS)  =   -69.7026522983448      MeV
+ Iteration #           27      E_HF(BCS)  =   -69.7076651705918      MeV
+ Iteration #           28      E_HF(BCS)  =   -69.7123342041588      MeV
+ Iteration #           29      E_HF(BCS)  =   -69.7166775724241      MeV
+ Iteration #           30      E_HF(BCS)  =   -69.7207133306472      MeV
+ Iteration #           31      E_HF(BCS)  =   -69.7244592412880      MeV
+ Iteration #           32      E_HF(BCS)  =   -69.7279326390331      MeV
+ Iteration #           33      E_HF(BCS)  =   -69.7311503291615      MeV
+ Iteration #           34      E_HF(BCS)  =   -69.7341285124275      MeV
+ Iteration #           35      E_HF(BCS)  =   -69.7368827316662      MeV
+ Iteration #           36      E_HF(BCS)  =   -69.7394278370724      MeV
+ Iteration #           37      E_HF(BCS)  =   -69.7417779656203      MeV
+ Iteration #           38      E_HF(BCS)  =   -69.7439465323189      MeV
+ Iteration #           39      E_HF(BCS)  =   -69.7459462312396      MeV
+ Iteration #           40      E_HF(BCS)  =   -69.7477890436441      MeV
+ Iteration #           41      E_HF(BCS)  =   -69.7494862523292      MeV
+ Iteration #           42      E_HF(BCS)  =   -69.7510484605277      MeV
+ Iteration #           43      E_HF(BCS)  =   -69.7524856140068      MeV
+ Iteration #           44      E_HF(BCS)  =   -69.7538070255937      MeV
+ Iteration #           45      E_HF(BCS)  =   -69.7550214021096      MeV
+ Iteration #           46      E_HF(BCS)  =   -69.7561368716352      MeV
+ Iteration #           47      E_HF(BCS)  =   -69.7571610118501      MeV
+ Iteration #           48      E_HF(BCS)  =   -69.7581008784508      MeV
+ Iteration #           49      E_HF(BCS)  =   -69.7589630335430      MeV
+ Iteration #           50      E_HF(BCS)  =   -69.7597535731957      MeV
+ Iteration #           51      E_HF(BCS)  =   -69.7604781551582      MeV
+ Iteration #           52      E_HF(BCS)  =   -69.7611420250133      MeV
+ Iteration #           53      E_HF(BCS)  =   -69.7617500419086      MeV
+ Iteration #           54      E_HF(BCS)  =   -69.7623067031630      MeV
+ Iteration #           55      E_HF(BCS)  =   -69.7628161678550      MeV
+ Iteration #           56      E_HF(BCS)  =   -69.7632822793023      MeV
+ Iteration #           57      E_HF(BCS)  =   -69.7637085863475      MeV
+ Iteration #           58      E_HF(BCS)  =   -69.7640983639661      MeV
+ Iteration #           59      E_HF(BCS)  =   -69.7644546320979      MeV
+ Iteration #           60      E_HF(BCS)  =   -69.7647801738594      MeV
+ Iteration #           61      E_HF(BCS)  =   -69.7650775525686      MeV
+ Iteration #           62      E_HF(BCS)  =   -69.7653491277506      MeV
+ Iteration #           63      E_HF(BCS)  =   -69.7655970701420      MeV
+ Iteration #           64      E_HF(BCS)  =   -69.7658233757482      MeV
+ Iteration #           65      E_HF(BCS)  =   -69.7660298789635      MeV
+ Iteration #           66      E_HF(BCS)  =   -69.7662182648517      MeV
+ Iteration #           67      E_HF(BCS)  =   -69.7663900804600      MeV
+ Iteration #           68      E_HF(BCS)  =   -69.7665467458006      MeV
+ Iteration #           69      E_HF(BCS)  =   -69.7666895634058      MeV
+ Iteration #           70      E_HF(BCS)  =   -69.7668197275441      MeV
+ Iteration #           71      E_HF(BCS)  =   -69.7669383330838      MeV
+ Iteration #           72      E_HF(BCS)  =   -69.7670463829653      MeV
+ Iteration #           73      E_HF(BCS)  =   -69.7671447958751      MeV
+ Iteration #           74      E_HF(BCS)  =   -69.7672344129189      MeV
+ Iteration #           75      E_HF(BCS)  =   -69.7673160040039      MeV
+ Iteration #           76      E_HF(BCS)  =   -69.7673902733140      MeV
+ Iteration #           77      E_HF(BCS)  =   -69.7674578650108      MeV
+ Iteration #           78      E_HF(BCS)  =   -69.7675193679521      MeV
+ Iteration #           79      E_HF(BCS)  =   -69.7675753205855      MeV
+ Iteration #           80      E_HF(BCS)  =   -69.7676262148096      MeV
+ Iteration #           81      E_HF(BCS)  =   -69.7676724998564      MeV
+ Iteration #           82      E_HF(BCS)  =   -69.7677145861871      MeV
+ Iteration #           83      E_HF(BCS)  =   -69.7677528483234      MeV
+ Iteration #           84      E_HF(BCS)  =   -69.7677876282025      MeV
+ Iteration #           85      E_HF(BCS)  =   -69.7678192378365      MeV
+ Iteration #           86      E_HF(BCS)  =   -69.7678479618492      MeV
+ Iteration #           87      E_HF(BCS)  =   -69.7678740598264      MeV
+ Iteration #           88      E_HF(BCS)  =   -69.7678977684495      MeV
+ Iteration #           89      E_HF(BCS)  =   -69.7679193033687      MeV
+ Iteration #           90      E_HF(BCS)  =   -69.7679388613257      MeV
+ Iteration #           91      E_HF(BCS)  =   -69.7679566213732      MeV
+ Iteration #           92      E_HF(BCS)  =   -69.7679727467249      MeV
+ Iteration #           93      E_HF(BCS)  =   -69.7679873861340      MeV
+ Iteration #           94      E_HF(BCS)  =   -69.7680006748362      MeV
+ Iteration #           95      E_HF(BCS)  =   -69.7680127359460      MeV
+ Iteration #           96      E_HF(BCS)  =   -69.7680236817362      MeV
+ Iteration #           97      E_HF(BCS)  =   -69.7680336142689      MeV
+ Iteration #           98      E_HF(BCS)  =   -69.7680426262971      MeV
+ Iteration #           99      E_HF(BCS)  =   -69.7680508023030      MeV
+ Iteration #          100      E_HF(BCS)  =   -69.7680582192263      MeV
+ Iteration #          101      E_HF(BCS)  =   -69.7680649468256      MeV
+ Iteration #          102      E_HF(BCS)  =   -69.7680710485138      MeV
+ Iteration #          103      E_HF(BCS)  =   -69.7680765821548      MeV
+ Iteration #          104      E_HF(BCS)  =   -69.7680816002332      MeV
+ Iteration #          105      E_HF(BCS)  =   -69.7680861503346      MeV
+ Iteration #          106      E_HF(BCS)  =   -69.7680902759058      MeV
+ Iteration #          107      E_HF(BCS)  =   -69.7680940162050      MeV
+ Iteration #          108      E_HF(BCS)  =   -69.7680974069970      MeV
+ Iteration #          109      E_HF(BCS)  =   -69.7681004807589      MeV
+ Iteration #          110      E_HF(BCS)  =   -69.7681032669841      MeV
+ Iteration #          111      E_HF(BCS)  =   -69.7681057924510      MeV
+ Iteration #          112      E_HF(BCS)  =   -69.7681080814663      MeV
+ Iteration #          113      E_HF(BCS)  =   -69.7681101559860      MeV
+ Iteration #          114      E_HF(BCS)  =   -69.7681120361453      MeV
+ Iteration #          115      E_HF(BCS)  =   -69.7681137400112      MeV
+ Iteration #          116      E_HF(BCS)  =   -69.7681152840742      MeV
+ Iteration #          117      E_HF(BCS)  =   -69.7681166832954      MeV
+ Iteration #          118      E_HF(BCS)  =   -69.7681179512513      MeV
+ Iteration #          119      E_HF(BCS)  =   -69.7681191002536      MeV
+ Iteration #          120      E_HF(BCS)  =   -69.7681201413601      MeV
+ Iteration #          121      E_HF(BCS)  =   -69.7681210848052      MeV
+ Iteration #          122      E_HF(BCS)  =   -69.7681219397747      MeV
+ Iteration #          123      E_HF(BCS)  =   -69.7681227144865      MeV
+ Iteration #          124      E_HF(BCS)  =   -69.7681234164839      MeV
+ Iteration #          125      E_HF(BCS)  =   -69.7681240526159      MeV
+ Iteration #          126      E_HF(BCS)  =   -69.7681246290877      MeV
+ Iteration #          127      E_HF(BCS)  =   -69.7681251515261      MeV
+ Iteration #          128      E_HF(BCS)  =   -69.7681256250282      MeV
+ Iteration #          129      E_HF(BCS)  =   -69.7681260542145      MeV
+ Iteration #          130      E_HF(BCS)  =   -69.7681264431625      MeV
+ Iteration #          131      E_HF(BCS)  =   -69.7681267957697      MeV
+ Iteration #          132      E_HF(BCS)  =   -69.7681271153767      MeV
+ Iteration #          133      E_HF(BCS)  =   -69.7681274051987      MeV
+ Iteration #          134      E_HF(BCS)  =   -69.7681276679647      MeV
+ Iteration #          135      E_HF(BCS)  =   -69.7681279062198      MeV
+ Iteration #          136      E_HF(BCS)  =   -69.7681281221812      MeV
+ Iteration #          137      E_HF(BCS)  =   -69.7681283180488      MeV
+ Iteration #          138      E_HF(BCS)  =   -69.7681284957446      MeV
+ Iteration #          139      E_HF(BCS)  =   -69.7681286569992      MeV
+ Iteration #          140      E_HF(BCS)  =   -69.7681288032696      MeV
+ Iteration #          141      E_HF(BCS)  =   -69.7681289359593      MeV
+ Iteration #          142      E_HF(BCS)  =   -69.7681290563562      MeV
+ Iteration #          143      E_HF(BCS)  =   -69.7681291657373      MeV
+ Iteration #          144      E_HF(BCS)  =   -69.7681292649712      MeV
+ 
+ HF-BCS calculation finished
+ Total energy:   -69.7681292649712     
+ Pairing energy:   -1.14682924922610     
